@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Dauby Romain</title>
+                    <!---lien vers mon css-->
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+                    <!---lien vers mon js-->
+    <script src="js/cv.js"  defer></script>
+</head>
+    <body>
+                       <!---Coordonnées-->
+      <header> 
+          <figure>
+            <br>
+            
+            <img id="effet5" src="images/moi.png" alt="une photo de ma tête pour mon CV" width=10% height=10% center> 
+            
+            <figcaption><h1>Romain Dauby 26 ans</h1></figcaption><br>
+          </figure>   
+          <table class="Coordonnées">
+            <tr>
+              <th class="coord-header" colspan="2">Coordonnées </th>
+           </tr>
+            <tr>
+              <th>
+              Téléphone
+              </th>
+             <th>
+              Adresse Mail
+             </th>
+           </tr>
+            <tr>
+              <td>
+                (+33)0781759459
+              </td>
+              <td><a  href="mailto:dauby.romain@outlook.fr" target=""_blank >dauby.romain@outlook.fr</style></a></td>
+            </tr>
+          </table>
+    </header>
+
+        <!---PROFIL--->
+        <section>
+        <h2> PROFIL </h2>  <hr>
+        <p id="profil">Motivé, dynamique, rigoureux et soigné.<br>
+        Titulaire du permis B <hr></p>
+
+        <!---EXPERIENCE/JOBS-->
+      <h2>EXPERIENCE </h2>
+      
+      <h3>JOBS</h3>
+      <table style="width: 100%; border-collapse: collapse; text-align: left;">
+      
+        <thead>
+            <tr>
+                <th>Entreprise</th>
+                <th>Poste</th>
+                <th>Années</th>
+            </tr>
+        </thead>
+        <div id="expererience"> <!---tableau-->
+            <tr>
+                <td class="job"><a class=entreprise  id="effet1" href="https://www.entreprise1.com" target="_blank">Gramybel</a></td>
+                <td class="job">Ouvirer polyvalant</td>
+                <td class="job">2018/2019/2020</td>
+            </tr>
+            <tr>
+                <td class="job"><a class="entreprise" id=effet2 href="https://www.entreprise2.com" target="_blank">Balta</a></td>
+                <td class="job">contrat intérim 5mois</td>
+                <td class="job">Mars2021/juil2021</td>
+            </tr>
+            <tr>
+                <td class="job"><a class="entreprise" id="effet3" href="page/image.html" >McBride</a></td>
+                <td class="job">Opérateur ligne semi automatisé</td>
+                <td class="job">2021/2022</td>
+            </tr>
+            <tr>
+              <td class="job"><a class="entreprise" id="effet4"  href="https://www.entreprise3.com" target="_blank">Cosucra</a></td>
+              <td class="job">Opérateur de production, supervision</td>
+              <td class="job">2023/2024</td>
+          </tr>
+          <tr>
+            <td class="job"><a class="entreprise" id="effet4"  href="https://technofuturtic.be/" target="_blank">TechnoFuturTic</a></td>
+            <td class="job">Formation devenir développeur</td>
+            <td class="job">Février 2025</td>
+        </tr>
+        </div>
+    </table>
+    <hr>
+<!---SCOLARITE-->
+    <h2> SCOLARITE DON BOSCO - TOURNAI </h2>
+    <div class="container">
+
+
+      <!-- Bloc de gauche -->
+      <div class="ecole">
+          <ul>
+              <li>2019-2020 | 7ème année secondaire en option électricité industrielle. avec obtention du CESS et diplôme de gestion</li> 
+              <li>2018-2019 | 7ème année secondaire en option électricité industrielle.</li> 
+              <li>2017-2018 | 6ème année secondaire en option électricité industrielle.</li> 
+          </ul>
+      </div>
+
+      <!-- Bloc de droite -->
+      <div id="droite">
+          <ul>
+              <li>2015-2017 | 5ème et 4ème secondaire en option électricité industrielle.</li> 
+              <li>2014-2015 | 3ème secondaire en option électricité domestique.</li>
+          </ul>
+      </div>
+  </div>
+    <!---COMPETENCES/LANGUES-->
+   <h2>COMPETENCES</h2>
+   
+   <h3>LANGUES</h3>
+   <p>
+    <ui>
+      <li>Francais</li>
+      <li>Anglais (niveau scolaire) </li> 
+    </ui>
+   </p>
+   <hr>
+   <!---LOISIRS--->
+   <h2>LOISIRS</h2>
+   <p>
+    <ui>
+      <li>Sports (vélo, randonées/trekking...)</li>
+      <li>Activités manuelles </li>
+      <li>Photographie (portrait, paysage, astronomie, animaux)</li>
+    </ui>
+   </p>
+</section>
+
+
+
+
+
+      <footer><a href="https://www.instagram.com/rd.photographie/" target="_blank"><img src="images/iconeinsta2.png" alt="logo instagram" width="100" height="100"></a> 
+        <a href="https://www.linkedin.com/in/romain-dauby-a7a6721b7/" target="_blank"><img src="images/linkedin.png" alt="logo linkedin vers mon profil" width="100" height="100"></a> 
+      <br>
+      <!-- <input type="radio" name="choix" value="oui" id="choixOui">Oui
+      <input type="radio" name="choix" value="non" id="choixNon">Non
+      <br>
+      <button type="submit"> Envoyé</button> -->
+      <label> Êtes-vous intéressé par mon profil ? Si oui, vous allez être redirigé vers mon adresse mail. </label><br>
+      <button value="oui" id="btn-oui">Oui</button>
+    <button value="non" id="btn-non">Non</button>
+
+      </footer>
+  </body>
+</html>

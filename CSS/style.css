@@ -1,0 +1,95 @@
+/*-- style section --*/
+body {
+  background-image: linear-gradient(
+    rgba(0, 0, 255, 0.5),
+    rgba(255, 255, 0, 0.5)
+  );
+}
+
+section {
+  font-family: comic "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+/*-- style ligne hr --*/
+hr {
+  border: 1px solid #000000;
+}
+/*-- style header --*/
+header,
+footer {
+  background-color: rgba(128, 128, 128, 0.073);
+  text-align: center;
+}
+.Coordonnées {
+  border: 2px solid black;
+  margin: auto;
+  text-decoration-line: underline;
+}
+.coord-header {
+  font-size: 1.2em;
+  border-radius: 50px;
+}
+
+.job,
+thead {
+  border: #000000 solid 2px;
+  text-align: center;
+}
+thead {
+  text-align: center;
+  font-size: large;
+}
+.entreprise {
+  text-decoration: none;
+  color: #000000;
+}
+div {
+  display: flex;
+  
+}
+
+/* Style pour les deux blocs */
+.ecole,
+#droite {
+  width: 50%; /* Chaque bloc prend environ la moitié de l’espace */
+  background-color: rgba(211, 211, 211, 0.313);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* Liste */
+ul {
+  list-style-type: none; /* Supprime les puces */
+  padding: 0;
+}
+
+#effet1:hover,
+#effet2:hover,
+#effet3:hover,
+#effet4:hover {
+  color: rgb(145, 2, 145); /* Change la couleur du lien en rouge */
+  font-size: 1.1em; /* Agrandit légèrement le texte */
+  text-decoration: underline; /* Souligne le texte */
+  transition: 300ms, color 300ms;
+  
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode a {
+  color: lightblue;
+}
+
+.dark-mode .coord-header {
+  background-color: gray;
+}
+
+.dark-mode table {
+  border-color: white;
+}
+
